@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="DreamMakeup">
+  <meta name="keywords" content="DreamMakeup, Stable Diffusion, Makeup transfer, Human face makeup, Image editing">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DreamMakeup: Face Makeup Customization using Latent Diffusion Models </title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+
+
+
+
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img id="teaser" autoplay muted loop playsinline height="100%">
+      <img src="./static/images/first_figure.png" width="900"
+                 class="image-main"/>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            The exponential growth of the global makeup market has paralleled advancements in virtual makeup simulation technology. 
+            Despite the notable progress facilitated by generative adversarial networks (GANs), their application in facial makeup simulation encounters significant challenges, 
+            including training instability and limited customization capabilities. 
+            Addressing these challenges, this paper introduces {\em DreamMakup} - a novel Diffusion Model for Makeup Customization, 
+            leveraging the inherent advantages of diffusion models for superior controllability and precise real-image editing. 
+            DreamMakeup employs early-stopped DDIM inversion to preserve the facial structure and 
+            identity while enabling extensive customization through various conditioning inputs such as reference images, 
+            specific RGB colors, and textual descriptions. Our model demonstrates notable improvements over existing GAN-based frameworks, 
+            enhanced customization, color-matching capabilities, and compatibility with textual descriptions, with affordable computational costs.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+  </div>
+</section>
+
+
+
+
+
+
+
+</footer>
+
+</body>
+</html>
